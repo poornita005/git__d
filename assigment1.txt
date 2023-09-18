@@ -1,0 +1,13 @@
+ int sa,comm;
+    printf("enter sale ammount");
+    scanf("%d",&sa);
+    if(sa>1000)
+    {
+        //sa=sa*comm/100;
+        comm=sa*15/100;
+        sa=sa+comm;
+        printf("comm is %d",sa);
+ }
+ else{
+    printf("comm is failed");
+ }
